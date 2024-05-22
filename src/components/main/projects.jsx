@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function projects() {
   return (
-    <section className="section" id="projects">
+    <section data-aos="zoom-in-up" className="section" id="projects">
         <div className="top-header">
             <h1>Projects</h1>
         </div>
@@ -20,7 +20,7 @@ export default function projects() {
             <div className="project-box">
                 <i className="uil uil-award"></i>
                 <h3>Experience</h3>
-                <label>7+ Years in the field</label>
+                <label>4+ Years in the field</label>
             </div>
         </div>
     </section>

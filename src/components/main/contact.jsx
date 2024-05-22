@@ -1,8 +1,11 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function contact() {
+    AOS.init();
   return (
-    <section className="section" id="contact">
+    <section data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className="section" id="contact">
         <div className="top-header">
             <h1>Get in touch</h1>
             <span>Do you have a project in your mind, contact me here</span>
@@ -11,8 +14,8 @@ export default function contact() {
             <div className="col">
                 <div className="contact-info">
                     <h2>Find Me <i className="uil uil-corner-right-down"></i></h2>
-                    <p><i className="uil uil-envelope"></i> Email: john@doe.com</p>
-                    <p><i className="uil uil-phone"></i> Tel: +250 708 770 000</p>
+                    <p><i className="uil uil-envelope"></i> Email: younessalmi193@gmail.com</p>
+                    <p><i className="uil uil-phone"></i> Tel: +212 06 66 62 66 61</p>
                 </div>
             </div>
             <div className="col">

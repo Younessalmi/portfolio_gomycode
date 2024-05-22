@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer>
         <div className="top-footer">
-            <p>John Doe .</p>
+            <p>Yoness SALMI .</p>
         </div>
 
         <div className="middle-footer">
@@ -28,15 +28,11 @@ export default function Footer() {
             </ul>
         </div>
 
-        <div className="footer-social-icons">
+        <div style={FooterStyle} className="footer-social-icons">
             <div className="icon"><i className="uil uil-instagram"></i></div>
             <div className="icon"><i className="uil uil-linkedin-alt"></i></div>
             <div className="icon"><i className="uil uil-dribbble"></i></div>
             <div className="icon"><i className="uil uil-github-alt"></i></div>
-        </div>
-
-        <div className="bottom-footer">
-            <p>Copyright &copy; <a href="#home" style={FooterStyle}>John Doe</a> - All rights reserved</p>
         </div>
     </footer>
   )

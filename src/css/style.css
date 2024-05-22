@@ -314,7 +314,8 @@ h3{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-block: 30px 70px;
+    /*padding-block: 30px 70px;*/
+    padding-block: 30px 32px;
     padding-inline: 20px;
     width: 100%;
     background: var(--color-white);
@@ -322,14 +323,14 @@ h3{
     border-radius: 20px;
 }
 .about-info p{
-    text-align: center;
     font-size: 15px;
     color: #777;
+    padding: 0px 0px 20px 5px;
 }
 .about-btn button{
-    position: absolute;
+    /*position: absolute;
     right: 20px;
-    bottom: 20px;
+    bottom: 20px;*/
     background: var(--first-color);
     color: var(--color-white);
     border-radius: 30px;

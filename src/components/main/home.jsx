@@ -1,15 +1,22 @@
-import React from 'react'
+import React from 'react';
+import { ReactTyped } from "react-typed";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function home() {
+    AOS.init();
+
   return (
     <section className="featured-box" id="home">
-        <div className="featured-text">
+        <div data-aos="flip-up" className="featured-text">
             <div className="featured-text-card">
-                <span>John Doe</span>
+                <span>Yoness SALMI</span>
             </div>
+
             <div className="featured-name">
-                <p>I'm <span className="typedText"></span></p>
+                 <ReactTyped className="typedText" strings={["I'm software developer"]} typeSpeed={40} />
             </div>
+
             <div className="featured-text-info">
                 <p>Experienced frontend developer with a passion for creating visually stunning
                     and user-friendly websites.
@@ -22,13 +29,14 @@ export default function home() {
             <div className="social_icons">
                 <div className="icon"><i className="uil uil-instagram"></i></div>
                 <div className="icon"><i className="uil uil-linkedin-alt"></i></div>
-                <div className="icon"><i className="uil uil-dribbble"></i></div>
+                <div className="icon"><i className="uil uil-phone"></i></div>
                 <div className="icon"><i className="uil uil-github-alt"></i></div>
             </div>
         </div>
-        <div className="featured-image">
+
+        <div  data-aos="flip-right" className="featured-image">
             <div className="image">
-                <img src="assets/images/avatar.png" alt="avatar"></img>
+                <img src="./images/avatar.jpeg" alt="avatar"></img>
             </div>
         </div>
         <div className="scroll-icon-box">
